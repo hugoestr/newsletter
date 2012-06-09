@@ -1,3 +1,6 @@
+require './Entry'
+require './newsletter'
+
 class TokenParser
   def parse(tokens)
     result = newsletter tokens

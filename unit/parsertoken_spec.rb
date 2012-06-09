@@ -1,6 +1,4 @@
 require_relative '../TokenParser'
-require_relative '../Entry'
-require_relative '../newsletter'
 
 describe TokenParser do
   before :each do
