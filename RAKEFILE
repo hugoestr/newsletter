@@ -1,0 +1,6 @@
+task :unit do
+  sh "rspec unit"
+end
+
+task :default => [:unit] do
+end
